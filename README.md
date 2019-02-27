@@ -35,34 +35,6 @@ Since I have included two package.json files, you do not need to install depende
 yarn install
 ```
 
-## Deployment
-
-Follow these instructions to deploy your app live on Heroku
-
-Create a heroku app in your project directory
-```
-heroku create <projectName>
-```
-
-Provision mLab MongoDB add-on for your project
-```
-heroku addons:create mongolab
-```
-
-Deploy the app
-```
-yarn deploy
-```
-
-Now your project should be successfully deployed on heroku.
-
-## Screenshots
-
 **Article search and results**
 
 ![screenshot-1](https://i.imgur.com/eiN3oU2.png)
-
-## Future Updates
-
-1. [ ] Polish styling of search results/saved articles
-2. [ ] Add ability to comment on articles
